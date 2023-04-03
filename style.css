@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ced5e4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: #68ccf3;
+}
+
+.navbar {
+    color: #9ebac5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #274047;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1 1;
+}
+
+.brand {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2vw;
+    align-items: start;
+    flex: 1;
+}
+
+.main-page {
+    font-size: 48px;
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #1F2937;
+    color: #f9faf8;
+    flex-flow: column wrap;
+    padding-bottom: 50vh;
+}
+
+.main-header {
+    font-size: 38px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    color: #f9faf8;
+    flex-flow: row wrap;
+    padding-bottom: 50vh;
+    padding-top: 10vh;
+    flex-direction: column;
+}
+
+.main-img {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.maintitle {
+    text-align: center;
+}
+
+.cards {
+    display:flex;
+    justify-content: space-around;
+    gap:32px;
+    flex-flow: row wrap;
+}
+
+.card {
+    border-radius: 9px;
+    background-color: #233285;
+    border: 3px solid #3489bb55;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.card:hover {
+    border: 3px solid #35aef3;
+    transform:scale(1.05);
+}
+
+footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+    align-self: stretch;
+    background-color: #395e68;
+    color: #f9faf8;
+}
